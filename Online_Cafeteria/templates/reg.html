@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- Bootstrap 4(no jq)-->
+     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!--Bootstrap4-->
+</head>
+    <body>
+        <div class="jumbotron">
+            <strong><h2>Get started with a free account</h2></strong>
+            <form action="/reg" method="post">
+                <div class="form-group">
+                <label for="usr">Name:</label>
+                <input type="text" class="form-control" id="usr" name="name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                <label for="phn">Mobile:</label>
+                <input type="number" class="form-control" id="phn" name="phone" placeholder="Phone number">
+                </div>
+                <div class="form-group">
+                <label for="ema">Email:</label>
+                <input type="email" class="form-control" id="ema" name="email" placeholder="Email ">
+                </div>
+                <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" name="password" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-danger">Sign Up</button>
+            </form>
+        </div>
+
+    </body>
+</html>
